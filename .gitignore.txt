@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Datos y Modelos (MUY IMPORTANTE) ---
+# No subimos los datasets gigantes ni los pesos de los modelos entrenados
+# porque superan el límite de GitHub y ensucian el repo.
+**/data/*.txt
+**/data/*.csv
+**/models/*.pth
+**/models/*.h5
+
+# --- Resultados Temporales ---
+**/results/figures/*.png
+**/results/figures/*.pdf
+*.html
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db

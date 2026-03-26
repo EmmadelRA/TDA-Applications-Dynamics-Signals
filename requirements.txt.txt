@@ -1,0 +1,20 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+
+# TDA Tools
+ripser
+persim
+kmapper
+
+# Machine Learning & Math
+scikit-learn
+scipy
+torch
+torchvision
+
+# Utilities
+tqdm
+pathlib
